@@ -7,10 +7,10 @@
 
 
 import * as import0 from '@angular/core';
-import * as import1 from './message.component';
-import * as import2 from '@angular/common';
+import * as import1 from '@angular/common';
+import * as import2 from './message.component';
 import * as import3 from './message.service';
-const styles_MessageComponent:any[] = ['.author[_ngcontent-%COMP%] {\n            display: inline-block;\n            font-style: italic;\n            font-size: 12px;\n            width:80%;\n        }\n        .config[_ngcontent-%COMP%] {\n            display: inline-block;\n            text-align: right;\n            font-size: 12px;\n            width: 19%;\n        }'];
+const styles_MessageComponent:any[] = ['.author[_ngcontent-%COMP%] {\n            display: inline-block;\n            font-style: italic;\n            font-size: 12px;\n            width: 80%;\n        }\n        .config[_ngcontent-%COMP%] {\n            display: inline-block;\n            text-align: right;\n            font-size: 12px;\n            width: 19%;\n        }'];
 export const RenderType_MessageComponent:import0.RendererType2 = import0.ɵcrt({
   encapsulation: 0,
   styles: styles_MessageComponent,
@@ -60,46 +60,11 @@ function View_MessageComponent_1(l:any):import0.ɵViewDefinition {
 }
 export function View_MessageComponent_0(l:any):import0.ɵViewDefinition {
   return import0.ɵvid(0,[
-      (l()(),import0.ɵeld(0,(null as any),(null as any),15,'article',[[
+      (l()(),import0.ɵeld(0,(null as any),(null as any),13,'article',[[
         'class',
         'panel panel-default'
       ]
-    ],(null as any),[
-      [
-        (null as any),
-        'mouseenter'
-      ]
-      ,
-      [
-        (null as any),
-        'mouseleave'
-      ]
-
-    ]
-    ,(v,en,$event) => {
-      var ad:boolean = true;
-      var co:import1.MessageComponent = v.component;
-      if (('mouseenter' === en)) {
-        const pd_0:any = ((<any>(co.color = 'green')) !== false);
-        ad = (pd_0 && ad);
-      }
-      if (('mouseleave' === en)) {
-        const pd_1:any = ((<any>(co.color = 'pink')) !== false);
-        ad = (pd_1 && ad);
-      }
-      return ad;
-    },(null as any),(null as any))),
-    import0.ɵdid(278528,(null as any),0,import2.NgStyle,[
-      import0.KeyValueDiffers,
-      import0.ElementRef,
-      import0.Renderer
-    ]
-      ,{ngStyle: [
-        0,
-        'ngStyle'
-      ]
-    },(null as any)),
-    import0.ɵpod(['backgroundColor']),
+    ],(null as any),(null as any),(null as any),(null as any),(null as any))),
     (l()(),import0.ɵted((null as any),['\n    '])),
       (l()(),import0.ɵeld(0,(null as any),(null as any),1,'div',[[
         'class',
@@ -130,7 +95,7 @@ export function View_MessageComponent_0(l:any):import0.ɵViewDefinition {
     )),
     (l()(),import0.ɵted((null as any),['\n        '])),
     (l()(),import0.ɵand(16777216,(null as any),(null as any),1,(null as any),View_MessageComponent_1)),
-    import0.ɵdid(16384,(null as any),0,import2.NgIf,[
+    import0.ɵdid(16384,(null as any),0,import1.NgIf,[
       import0.ViewContainerRef,
       import0.TemplateRef
     ]
@@ -143,25 +108,23 @@ export function View_MessageComponent_0(l:any):import0.ɵViewDefinition {
     (l()(),import0.ɵted((null as any),['\n']))
   ]
   ,(ck,v) => {
-    var co:import1.MessageComponent = v.component;
-    const currVal_0:any = ck(v,2,0,co.color);
-    ck(v,1,0,currVal_0);
-    const currVal_3:any = co.belongsToUser();
-    ck(v,13,0,currVal_3);
+    var co:import2.MessageComponent = v.component;
+    const currVal_2:any = co.belongsToUser();
+    ck(v,11,0,currVal_2);
   },(ck,v) => {
-    var co:import1.MessageComponent = v.component;
-    const currVal_1:any = co.message.content;
-    ck(v,5,0,currVal_1);
-    const currVal_2:any = co.message.username;
-    ck(v,10,0,currVal_2);
+    var co:import2.MessageComponent = v.component;
+    const currVal_0:any = co.message.content;
+    ck(v,3,0,currVal_0);
+    const currVal_1:any = co.message.username;
+    ck(v,8,0,currVal_1);
   });
 }
 function View_MessageComponent_Host_0(l:any):import0.ɵViewDefinition {
   return import0.ɵvid(0,[
     (l()(),import0.ɵeld(0,(null as any),(null as any),1,'app-message',([] as any[]),(null as any),(null as any),(null as any),View_MessageComponent_0,RenderType_MessageComponent)),
-    import0.ɵdid(49152,(null as any),0,import1.MessageComponent,[import3.MessageService],(null as any),(null as any))
+    import0.ɵdid(49152,(null as any),0,import2.MessageComponent,[import3.MessageService],(null as any),(null as any))
   ]
   ,(null as any),(null as any));
 }
-export const MessageComponentNgFactory:import0.ComponentFactory<import1.MessageComponent> = import0.ɵccf('app-message',import1.MessageComponent,View_MessageComponent_Host_0,{message: 'message'},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvYmVuYmEvT25lRHJpdmUvRGV2L0RvemVyYW5kU2NobWl0dC9uZXctY291cnNlL2Fzc2V0cy9hcHAvbWVzc2FnZXMvbWVzc2FnZS5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vQzovVXNlcnMvYmVuYmEvT25lRHJpdmUvRGV2L0RvemVyYW5kU2NobWl0dC9uZXctY291cnNlL2Fzc2V0cy9hcHAvbWVzc2FnZXMvbWVzc2FnZS5jb21wb25lbnQudHMiLCJuZzovLy9DOi9Vc2Vycy9iZW5iYS9PbmVEcml2ZS9EZXYvRG96ZXJhbmRTY2htaXR0L25ldy1jb3Vyc2UvYXNzZXRzL2FwcC9tZXNzYWdlcy9tZXNzYWdlLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvYmVuYmEvT25lRHJpdmUvRGV2L0RvemVyYW5kU2NobWl0dC9uZXctY291cnNlL2Fzc2V0cy9hcHAvbWVzc2FnZXMvbWVzc2FnZS5jb21wb25lbnQudHMuTWVzc2FnZUNvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIjxhcnRpY2xlIGNsYXNzPVwicGFuZWwgcGFuZWwtZGVmYXVsdFwiXHJcbiAgICAgICAgIFtuZ1N0eWxlXT1cIntiYWNrZ3JvdW5kQ29sb3I6IGNvbG9yfVwiXHJcbiAgICAgICAgIChtb3VzZWVudGVyKT1cImNvbG9yID0gJ2dyZWVuJ1wiXHJcbiAgICAgICAgIChtb3VzZWxlYXZlKT1cImNvbG9yID0gJ3BpbmsnXCI+XHJcbiAgICA8ZGl2IGNsYXNzPVwicGFuZWwtYm9keVwiPlxyXG4gICAgICAgIHt7IG1lc3NhZ2UuY29udGVudCB9fVxyXG4gICAgPC9kaXY+XHJcbiAgICA8Zm9vdGVyIGNsYXNzPVwicGFuZWwtZm9vdGVyXCI+XHJcbiAgICAgICAgPGRpdiBjbGFzcz1cImF1dGhvclwiPlxyXG4gICAgICAgICAgICB7eyBtZXNzYWdlLnVzZXJuYW1lIH19XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPGRpdiBjbGFzcz1cImNvbmZpZ1wiICpuZ0lmPVwiYmVsb25nc1RvVXNlcigpXCI+XHJcbiAgICAgICAgICAgIDxhIChjbGljayk9XCJvbkVkaXQoKVwiPkVkaXQ8L2E+XHJcbiAgICAgICAgICAgIDxhIChjbGljayk9XCJvbkRlbGV0ZSgpXCI+RGVsZXRlPC9hPlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgPC9mb290ZXI+XHJcbjwvYXJ0aWNsZT4iLCI8YXBwLW1lc3NhZ2U+PC9hcHAtbWVzc2FnZT4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7TUNXUTtRQUFBO1FBQUE7TUFBQTtJQUFBO0lBQTRDO01BQ3hDO1FBQUE7UUFBQTtNQUFBO0lBQUE7TUFBQTtNQUFBO01BQUc7UUFBQTtRQUFBO01BQUE7TUFBSDtJQUFBO0lBQXNCO0lBQVE7TUFDOUI7UUFBQTtRQUFBO01BQUE7SUFBQTtNQUFBO01BQUE7TUFBRztRQUFBO1FBQUE7TUFBQTtNQUFIO0lBQUE7SUFBd0I7SUFBVTs7Ozs7O01BYjlDO1FBQUE7UUFBQTtNQUFBO0lBQUE7TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7SUFBQTtLQUFBO01BQUE7TUFBQTtNQUVTO1FBQUE7UUFBQTtNQUFBO01BQ0E7UUFBQTtRQUFBO01BQUE7TUFIVDtJQUFBO2dCQUFBOzs7O0lBQUE7T0FBQTtRQUFBO1FBQUE7TUFBQTtJQUFBO2dCQUNTO0lBRThCO01BQ25DO1FBQUE7UUFBQTtNQUFBO0lBQUE7SUFBd0I7TUFBQTtNQUFBO0lBQUE7SUFBQTtJQUVsQjtNQUNOO1FBQUE7UUFBQTtNQUFBO0lBQUE7SUFBNkI7TUFDekI7UUFBQTtRQUFBO01BQUE7SUFBQTtJQUFvQjtNQUFBO01BQUE7SUFBQTtJQUFBO0lBRWQ7SUFDTjtnQkFBQTs7O0lBQUE7T0FBQTtRQUFBO1FBQUE7TUFBQTtJQUFBO0lBR007SUFDRDs7OztJQWRKO0lBRFQsU0FDUyxTQURUO0lBVzRCO0lBQXBCLFVBQW9CLFNBQXBCOzs7SUFQb0I7SUFBQTtJQUlBO0lBQUE7Ozs7O0lDUjVCO2dCQUFBOzs7OyJ9
+export const MessageComponentNgFactory:import0.ComponentFactory<import2.MessageComponent> = import0.ɵccf('app-message',import2.MessageComponent,View_MessageComponent_Host_0,{message: 'message'},{},([] as any[]));
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvYmVuYmEvT25lRHJpdmUvRGV2L0RvemVyYW5kU2NobWl0dC9uZXctY291cnNlL2Fzc2V0cy9hcHAvbWVzc2FnZXMvbWVzc2FnZS5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vQzovVXNlcnMvYmVuYmEvT25lRHJpdmUvRGV2L0RvemVyYW5kU2NobWl0dC9uZXctY291cnNlL2Fzc2V0cy9hcHAvbWVzc2FnZXMvbWVzc2FnZS5jb21wb25lbnQudHMiLCJuZzovLy9DOi9Vc2Vycy9iZW5iYS9PbmVEcml2ZS9EZXYvRG96ZXJhbmRTY2htaXR0L25ldy1jb3Vyc2UvYXNzZXRzL2FwcC9tZXNzYWdlcy9tZXNzYWdlLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvYmVuYmEvT25lRHJpdmUvRGV2L0RvemVyYW5kU2NobWl0dC9uZXctY291cnNlL2Fzc2V0cy9hcHAvbWVzc2FnZXMvbWVzc2FnZS5jb21wb25lbnQudHMuTWVzc2FnZUNvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIjxhcnRpY2xlIGNsYXNzPVwicGFuZWwgcGFuZWwtZGVmYXVsdFwiPlxuICAgIDxkaXYgY2xhc3M9XCJwYW5lbC1ib2R5XCI+XG4gICAgICAgIHt7IG1lc3NhZ2UuY29udGVudCB9fVxuICAgIDwvZGl2PlxuICAgIDxmb290ZXIgY2xhc3M9XCJwYW5lbC1mb290ZXJcIj5cbiAgICAgICAgPGRpdiBjbGFzcz1cImF1dGhvclwiPlxuICAgICAgICAgICAge3sgbWVzc2FnZS51c2VybmFtZSB9fVxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzcz1cImNvbmZpZ1wiICpuZ0lmPVwiYmVsb25nc1RvVXNlcigpXCI+XG4gICAgICAgICAgICA8YSAoY2xpY2spPVwib25FZGl0KClcIj5FZGl0PC9hPlxuICAgICAgICAgICAgPGEgKGNsaWNrKT1cIm9uRGVsZXRlKClcIj5EZWxldGU8L2E+XG4gICAgICAgIDwvZGl2PlxuICAgIDwvZm9vdGVyPlxuPC9hcnRpY2xlPiIsIjxhcHAtbWVzc2FnZT48L2FwcC1tZXNzYWdlPiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztNQ1FRO1FBQUE7UUFBQTtNQUFBO0lBQUE7SUFBNEM7TUFDeEM7UUFBQTtRQUFBO01BQUE7SUFBQTtNQUFBO01BQUE7TUFBRztRQUFBO1FBQUE7TUFBQTtNQUFIO0lBQUE7SUFBc0I7SUFBUTtNQUM5QjtRQUFBO1FBQUE7TUFBQTtJQUFBO01BQUE7TUFBQTtNQUFHO1FBQUE7UUFBQTtNQUFBO01BQUg7SUFBQTtJQUF3QjtJQUFVOzs7Ozs7TUFWOUM7UUFBQTtRQUFBO01BQUE7SUFBQTtJQUFxQztNQUNqQztRQUFBO1FBQUE7TUFBQTtJQUFBO0lBQXdCO01BQUE7TUFBQTtJQUFBO0lBQUE7SUFFbEI7TUFDTjtRQUFBO1FBQUE7TUFBQTtJQUFBO0lBQTZCO01BQ3pCO1FBQUE7UUFBQTtNQUFBO0lBQUE7SUFBb0I7TUFBQTtNQUFBO0lBQUE7SUFBQTtJQUVkO0lBQ047Z0JBQUE7OztJQUFBO09BQUE7UUFBQTtRQUFBO01BQUE7SUFBQTtJQUdNO0lBQ0Q7Ozs7SUFKZTtJQUFwQixVQUFvQixTQUFwQjs7O0lBUG9CO0lBQUE7SUFJQTtJQUFBOzs7OztJQ0w1QjtnQkFBQTs7OzsifQ==

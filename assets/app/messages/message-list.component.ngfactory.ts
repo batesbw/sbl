@@ -35,7 +35,7 @@ function View_MessageListComponent_1(l:any):import0.ɵViewDefinition {
 }
 export function View_MessageListComponent_0(l:any):import0.ɵViewDefinition {
   return import0.ɵvid(0,[
-    (l()(),import0.ɵted((null as any),['\n    '])),
+    (l()(),import0.ɵted((null as any),['\n        '])),
       (l()(),import0.ɵeld(0,(null as any),(null as any),4,'div',[[
         'class',
         'col-md-8 col-md-offset-2'
@@ -53,8 +53,8 @@ export function View_MessageListComponent_0(l:any):import0.ɵViewDefinition {
         'ngForOf'
       ]
     },(null as any)),
-    (l()(),import0.ɵted((null as any),['\n    '])),
-    (l()(),import0.ɵted((null as any),['  \n    ']))
+    (l()(),import0.ɵted((null as any),['\n        '])),
+    (l()(),import0.ɵted((null as any),['\n    ']))
   ]
   ,(ck,v) => {
     var co:import5.MessageListComponent = v.component;
@@ -72,4 +72,4 @@ function View_MessageListComponent_Host_0(l:any):import0.ɵViewDefinition {
   },(null as any));
 }
 export const MessageListComponentNgFactory:import0.ComponentFactory<import5.MessageListComponent> = import0.ɵccf('app-message-list',import5.MessageListComponent,View_MessageListComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvYmVuYmEvT25lRHJpdmUvRGV2L0RvemVyYW5kU2NobWl0dC9uZXctY291cnNlL2Fzc2V0cy9hcHAvbWVzc2FnZXMvbWVzc2FnZS1saXN0LmNvbXBvbmVudC5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9DOi9Vc2Vycy9iZW5iYS9PbmVEcml2ZS9EZXYvRG96ZXJhbmRTY2htaXR0L25ldy1jb3Vyc2UvYXNzZXRzL2FwcC9tZXNzYWdlcy9tZXNzYWdlLWxpc3QuY29tcG9uZW50LnRzIiwibmc6Ly8vQzovVXNlcnMvYmVuYmEvT25lRHJpdmUvRGV2L0RvemVyYW5kU2NobWl0dC9uZXctY291cnNlL2Fzc2V0cy9hcHAvbWVzc2FnZXMvbWVzc2FnZS1saXN0LmNvbXBvbmVudC50cy5NZXNzYWdlTGlzdENvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvYmVuYmEvT25lRHJpdmUvRGV2L0RvemVyYW5kU2NobWl0dC9uZXctY291cnNlL2Fzc2V0cy9hcHAvbWVzc2FnZXMvbWVzc2FnZS1saXN0LmNvbXBvbmVudC50cy5NZXNzYWdlTGlzdENvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIlxuICAgIDxkaXYgY2xhc3M9XCJjb2wtbWQtOCBjb2wtbWQtb2Zmc2V0LTJcIj5cbiAgICAgICAgICAgIDxhcHAtbWVzc2FnZSBbbWVzc2FnZV09XCJtZXNzYWdlXCIgXG4gICAgICAgICAgICAqbmdGb3I9XCJsZXQgbWVzc2FnZSBvZiBtZXNzYWdlc1wiPjwvYXBwLW1lc3NhZ2U+XG4gICAgPC9kaXY+ICBcbiAgICAiLCI8YXBwLW1lc3NhZ2UtbGlzdD48L2FwcC1tZXNzYWdlLWxpc3Q+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUNFWTtrQkFBQTtRQUFBO1FBQUE7TUFBQTtJQUFBOzs7SUFBYTtJQUFiLFNBQWEsU0FBYjs7Ozs7SUFGWjtNQUNJO1FBQUE7UUFBQTtNQUFBO0lBQUE7SUFBc0M7SUFDOUI7Z0JBQUE7Ozs7SUFBQTtPQUFBO1FBQUE7UUFBQTtNQUFBO0lBQUE7SUFDK0M7SUFDakQ7Ozs7SUFERTtJQURBLFNBQ0EsU0FEQTs7Ozs7SUNGWjtnQkFBQTs7O0lBQUE7OzsifQ==
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvYmVuYmEvT25lRHJpdmUvRGV2L0RvemVyYW5kU2NobWl0dC9uZXctY291cnNlL2Fzc2V0cy9hcHAvbWVzc2FnZXMvbWVzc2FnZS1saXN0LmNvbXBvbmVudC5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9DOi9Vc2Vycy9iZW5iYS9PbmVEcml2ZS9EZXYvRG96ZXJhbmRTY2htaXR0L25ldy1jb3Vyc2UvYXNzZXRzL2FwcC9tZXNzYWdlcy9tZXNzYWdlLWxpc3QuY29tcG9uZW50LnRzIiwibmc6Ly8vQzovVXNlcnMvYmVuYmEvT25lRHJpdmUvRGV2L0RvemVyYW5kU2NobWl0dC9uZXctY291cnNlL2Fzc2V0cy9hcHAvbWVzc2FnZXMvbWVzc2FnZS1saXN0LmNvbXBvbmVudC50cy5NZXNzYWdlTGlzdENvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvYmVuYmEvT25lRHJpdmUvRGV2L0RvemVyYW5kU2NobWl0dC9uZXctY291cnNlL2Fzc2V0cy9hcHAvbWVzc2FnZXMvbWVzc2FnZS1saXN0LmNvbXBvbmVudC50cy5NZXNzYWdlTGlzdENvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIlxuICAgICAgICA8ZGl2IGNsYXNzPVwiY29sLW1kLTggY29sLW1kLW9mZnNldC0yXCI+XG4gICAgICAgICAgICA8YXBwLW1lc3NhZ2VcbiAgICAgICAgICAgICAgICAgICBbbWVzc2FnZV09XCJtZXNzYWdlXCJcbiAgICAgICAgICAgICAgICAgICAgKm5nRm9yPVwibGV0IG1lc3NhZ2Ugb2YgbWVzc2FnZXNcIj48L2FwcC1tZXNzYWdlPlxuICAgICAgICA8L2Rpdj5cbiAgICAiLCI8YXBwLW1lc3NhZ2UtbGlzdD48L2FwcC1tZXNzYWdlLWxpc3Q+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUNFWTtrQkFBQTtRQUFBO1FBQUE7TUFBQTtJQUFBOzs7SUFDTztJQURQLFNBQ08sU0FEUDs7Ozs7SUFGWjtNQUNRO1FBQUE7UUFBQTtNQUFBO0lBQUE7SUFBc0M7SUFDbEM7Z0JBQUE7Ozs7SUFBQTtPQUFBO1FBQUE7UUFBQTtNQUFBO0lBQUE7SUFFdUQ7SUFDckQ7Ozs7SUFETTtJQUZSLFNBRVEsU0FGUjs7Ozs7SUNGWjtnQkFBQTs7O0lBQUE7OzsifQ==

@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
-var mongooseUniqueVal = require('mongoose-unique-validator');
 var Schema = mongoose.Schema;
+var mongooseUniqueValidator = require('mongoose-unique-validator');
 
 var schema = new Schema({
     firstName: {type: String, required: true},
@@ -10,6 +10,6 @@ var schema = new Schema({
     messages: [{type: Schema.Types.ObjectId, ref: 'Message'}]
 });
 
-schema.plugin(mongooseUniqueVal);
+schema.plugin(mongooseUniqueValidator);
 
 module.exports = mongoose.model('User', schema);

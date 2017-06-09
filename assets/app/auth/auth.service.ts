@@ -17,7 +17,7 @@ export class AuthService {
             .map((response: Response) => response.json())
             .catch((error: Response) => {
                 this.errorService.handleError(error.json());
-                return Observable.throw(error.json())
+                return Observable.throw(error.json());
             });
     }
 
@@ -28,7 +28,7 @@ export class AuthService {
             .map((response: Response) => response.json())
             .catch((error: Response) => {
                 this.errorService.handleError(error.json());
-                return Observable.throw(error.json())
+                return Observable.throw(error.json());
             });
     }
 

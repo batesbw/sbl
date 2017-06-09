@@ -1,7 +1,7 @@
-import { Component, Input, } from '@angular/core';
+import { Component, Input } from "@angular/core";
 
-import { Message } from './message.model';
-import { MessageService } from './message.service';
+import { Message } from "./message.model";
+import { MessageService } from "./message.service";
 
 @Component({
     selector: 'app-message',
@@ -11,7 +11,7 @@ import { MessageService } from './message.service';
             display: inline-block;
             font-style: italic;
             font-size: 12px;
-            width:80%;
+            width: 80%;
         }
         .config {
             display: inline-block;
@@ -26,21 +26,18 @@ export class MessageComponent {
 
     constructor(private messageService: MessageService) {}
 
-    color = 'pink';
-
-    onDelete(){
-        this.messageService.deleteMessage(this.message)            
-            .subscribe(
-                result => console.log(result)
-        );
+    onEdit() {
+        this.messageService.editMessage(this.message);
     }
 
-    onEdit(){
-        this.messageService.editMessage(this.message)
+    onDelete() {
+        this.messageService.deleteMessage(this.message)
+            .subscribe(
+                result => console.log(result)
+            );
     }
 
     belongsToUser() {
         return localStorage.getItem('userId') == this.message.userId;
     }
-
 }

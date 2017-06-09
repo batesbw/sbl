@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
-import { HttpModule } from '@angular/http';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpModule } from "@angular/http";
 
 import { AppComponent } from "./app.component";
 import { AuthenticationComponent } from "./auth/authentication.component";
@@ -20,7 +20,7 @@ import { MessageModule } from "./messages/message.module";
     ],
     imports: [
         BrowserModule,
-        routing, 
+        routing,
         HttpModule,
         MessageModule
     ],

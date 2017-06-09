@@ -20,14 +20,14 @@ export const RenderType_SigninComponent:import0.RendererType2 = import0.ɵcrt({
 );
 export function View_SigninComponent_0(l:any):import0.ɵViewDefinition {
   return import0.ɵvid(0,[
-      (l()(),import0.ɵeld(0,(null as any),(null as any),36,'div',[[
+      (l()(),import0.ɵeld(0,(null as any),(null as any),37,'div',[[
         'class',
         'col-md-8 col-md-offset-2'
       ]
     ],(null as any),(null as any),(null as any),(null as any),(null as any))),
     (l()(),import0.ɵted((null as any),['\n    '])),
-      (l()(),import0.ɵeld(0,(null as any),(null as any),33,'form',[[
-        'ngNativeValidate',
+      (l()(),import0.ɵeld(0,(null as any),(null as any),34,'form',[[
+        'novalidate',
         ''
       ]
     ],[
@@ -95,11 +95,11 @@ export function View_SigninComponent_0(l:any):import0.ɵViewDefinition {
       var ad:boolean = true;
       var co:import1.SigninComponent = v.component;
       if (('submit' === en)) {
-        const pd_0:any = ((<any>import0.ɵnov(v,3).onSubmit($event)) !== false);
+        const pd_0:any = ((<any>import0.ɵnov(v,4).onSubmit($event)) !== false);
         ad = (pd_0 && ad);
       }
       if (('reset' === en)) {
-        const pd_1:any = ((<any>import0.ɵnov(v,3).onReset()) !== false);
+        const pd_1:any = ((<any>import0.ɵnov(v,4).onReset()) !== false);
         ad = (pd_1 && ad);
       }
       if (('ngSubmit' === en)) {
@@ -108,6 +108,7 @@ export function View_SigninComponent_0(l:any):import0.ɵViewDefinition {
       }
       return ad;
     },(null as any),(null as any))),
+    import0.ɵdid(16384,(null as any),0,import2.ɵbf,([] as any[]),(null as any),(null as any)),
     import0.ɵdid(540672,(null as any),0,import2.FormGroupDirective,[
       [
         8,
@@ -139,7 +140,7 @@ export function View_SigninComponent_0(l:any):import0.ɵViewDefinition {
         'email'
       ]
     ],(null as any),(null as any),(null as any),(null as any),(null as any))),
-    (l()(),import0.ɵted((null as any),['Email'])),
+    (l()(),import0.ɵted((null as any),['Mail'])),
     (l()(),import0.ɵted((null as any),['\n            '])),
     (l()(),import0.ɵeld(0,(null as any),(null as any),5,'input',[
       [
@@ -232,19 +233,19 @@ export function View_SigninComponent_0(l:any):import0.ɵViewDefinition {
     ,(v,en,$event) => {
       var ad:boolean = true;
       if (('input' === en)) {
-        const pd_0:any = ((<any>import0.ɵnov(v,13)._handleInput($event.target.value)) !== false);
+        const pd_0:any = ((<any>import0.ɵnov(v,14)._handleInput($event.target.value)) !== false);
         ad = (pd_0 && ad);
       }
       if (('blur' === en)) {
-        const pd_1:any = ((<any>import0.ɵnov(v,13).onTouched()) !== false);
+        const pd_1:any = ((<any>import0.ɵnov(v,14).onTouched()) !== false);
         ad = (pd_1 && ad);
       }
       if (('compositionstart' === en)) {
-        const pd_2:any = ((<any>import0.ɵnov(v,13)._compositionStart()) !== false);
+        const pd_2:any = ((<any>import0.ɵnov(v,14)._compositionStart()) !== false);
         ad = (pd_2 && ad);
       }
       if (('compositionend' === en)) {
-        const pd_3:any = ((<any>import0.ɵnov(v,13)._compositionEnd($event.target.value)) !== false);
+        const pd_3:any = ((<any>import0.ɵnov(v,14)._compositionEnd($event.target.value)) !== false);
         ad = (pd_3 && ad);
       }
       return ad;
@@ -397,19 +398,19 @@ export function View_SigninComponent_0(l:any):import0.ɵViewDefinition {
     ,(v,en,$event) => {
       var ad:boolean = true;
       if (('input' === en)) {
-        const pd_0:any = ((<any>import0.ɵnov(v,26)._handleInput($event.target.value)) !== false);
+        const pd_0:any = ((<any>import0.ɵnov(v,27)._handleInput($event.target.value)) !== false);
         ad = (pd_0 && ad);
       }
       if (('blur' === en)) {
-        const pd_1:any = ((<any>import0.ɵnov(v,26).onTouched()) !== false);
+        const pd_1:any = ((<any>import0.ɵnov(v,27).onTouched()) !== false);
         ad = (pd_1 && ad);
       }
       if (('compositionstart' === en)) {
-        const pd_2:any = ((<any>import0.ɵnov(v,26)._compositionStart()) !== false);
+        const pd_2:any = ((<any>import0.ɵnov(v,27)._compositionStart()) !== false);
         ad = (pd_2 && ad);
       }
       if (('compositionend' === en)) {
-        const pd_3:any = ((<any>import0.ɵnov(v,26)._compositionEnd($event.target.value)) !== false);
+        const pd_3:any = ((<any>import0.ɵnov(v,27)._compositionEnd($event.target.value)) !== false);
         ad = (pd_3 && ad);
       }
       return ad;
@@ -483,39 +484,39 @@ export function View_SigninComponent_0(l:any):import0.ɵViewDefinition {
   ,(ck,v) => {
     var co:import1.SigninComponent = v.component;
     const currVal_7:any = co.myForm;
-    ck(v,3,0,currVal_7);
+    ck(v,4,0,currVal_7);
     const currVal_15:any = 'email';
-    ck(v,15,0,currVal_15);
+    ck(v,16,0,currVal_15);
     const currVal_23:any = 'password';
-    ck(v,28,0,currVal_23);
+    ck(v,29,0,currVal_23);
   },(ck,v) => {
     var co:import1.SigninComponent = v.component;
-    const currVal_0:any = import0.ɵnov(v,5).ngClassUntouched;
-    const currVal_1:any = import0.ɵnov(v,5).ngClassTouched;
-    const currVal_2:any = import0.ɵnov(v,5).ngClassPristine;
-    const currVal_3:any = import0.ɵnov(v,5).ngClassDirty;
-    const currVal_4:any = import0.ɵnov(v,5).ngClassValid;
-    const currVal_5:any = import0.ɵnov(v,5).ngClassInvalid;
-    const currVal_6:any = import0.ɵnov(v,5).ngClassPending;
+    const currVal_0:any = import0.ɵnov(v,6).ngClassUntouched;
+    const currVal_1:any = import0.ɵnov(v,6).ngClassTouched;
+    const currVal_2:any = import0.ɵnov(v,6).ngClassPristine;
+    const currVal_3:any = import0.ɵnov(v,6).ngClassDirty;
+    const currVal_4:any = import0.ɵnov(v,6).ngClassValid;
+    const currVal_5:any = import0.ɵnov(v,6).ngClassInvalid;
+    const currVal_6:any = import0.ɵnov(v,6).ngClassPending;
     ck(v,2,0,currVal_0,currVal_1,currVal_2,currVal_3,currVal_4,currVal_5,currVal_6);
-    const currVal_8:any = import0.ɵnov(v,17).ngClassUntouched;
-    const currVal_9:any = import0.ɵnov(v,17).ngClassTouched;
-    const currVal_10:any = import0.ɵnov(v,17).ngClassPristine;
-    const currVal_11:any = import0.ɵnov(v,17).ngClassDirty;
-    const currVal_12:any = import0.ɵnov(v,17).ngClassValid;
-    const currVal_13:any = import0.ɵnov(v,17).ngClassInvalid;
-    const currVal_14:any = import0.ɵnov(v,17).ngClassPending;
-    ck(v,12,0,currVal_8,currVal_9,currVal_10,currVal_11,currVal_12,currVal_13,currVal_14);
-    const currVal_16:any = import0.ɵnov(v,30).ngClassUntouched;
-    const currVal_17:any = import0.ɵnov(v,30).ngClassTouched;
-    const currVal_18:any = import0.ɵnov(v,30).ngClassPristine;
-    const currVal_19:any = import0.ɵnov(v,30).ngClassDirty;
-    const currVal_20:any = import0.ɵnov(v,30).ngClassValid;
-    const currVal_21:any = import0.ɵnov(v,30).ngClassInvalid;
-    const currVal_22:any = import0.ɵnov(v,30).ngClassPending;
-    ck(v,25,0,currVal_16,currVal_17,currVal_18,currVal_19,currVal_20,currVal_21,currVal_22);
+    const currVal_8:any = import0.ɵnov(v,18).ngClassUntouched;
+    const currVal_9:any = import0.ɵnov(v,18).ngClassTouched;
+    const currVal_10:any = import0.ɵnov(v,18).ngClassPristine;
+    const currVal_11:any = import0.ɵnov(v,18).ngClassDirty;
+    const currVal_12:any = import0.ɵnov(v,18).ngClassValid;
+    const currVal_13:any = import0.ɵnov(v,18).ngClassInvalid;
+    const currVal_14:any = import0.ɵnov(v,18).ngClassPending;
+    ck(v,13,0,currVal_8,currVal_9,currVal_10,currVal_11,currVal_12,currVal_13,currVal_14);
+    const currVal_16:any = import0.ɵnov(v,31).ngClassUntouched;
+    const currVal_17:any = import0.ɵnov(v,31).ngClassTouched;
+    const currVal_18:any = import0.ɵnov(v,31).ngClassPristine;
+    const currVal_19:any = import0.ɵnov(v,31).ngClassDirty;
+    const currVal_20:any = import0.ɵnov(v,31).ngClassValid;
+    const currVal_21:any = import0.ɵnov(v,31).ngClassInvalid;
+    const currVal_22:any = import0.ɵnov(v,31).ngClassPending;
+    ck(v,26,0,currVal_16,currVal_17,currVal_18,currVal_19,currVal_20,currVal_21,currVal_22);
     const currVal_24:boolean = !co.myForm.valid;
-    ck(v,33,0,currVal_24);
+    ck(v,34,0,currVal_24);
   });
 }
 function View_SigninComponent_Host_0(l:any):import0.ɵViewDefinition {
@@ -532,4 +533,4 @@ function View_SigninComponent_Host_0(l:any):import0.ɵViewDefinition {
   },(null as any));
 }
 export const SigninComponentNgFactory:import0.ComponentFactory<import1.SigninComponent> = import0.ɵccf('app-signin',import1.SigninComponent,View_SigninComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvYmVuYmEvT25lRHJpdmUvRGV2L0RvemVyYW5kU2NobWl0dC9uZXctY291cnNlL2Fzc2V0cy9hcHAvYXV0aC9zaWduaW4uY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL0M6L1VzZXJzL2JlbmJhL09uZURyaXZlL0Rldi9Eb3plcmFuZFNjaG1pdHQvbmV3LWNvdXJzZS9hc3NldHMvYXBwL2F1dGgvc2lnbmluLmNvbXBvbmVudC50cyIsIm5nOi8vL0M6L1VzZXJzL2JlbmJhL09uZURyaXZlL0Rldi9Eb3plcmFuZFNjaG1pdHQvbmV3LWNvdXJzZS9hc3NldHMvYXBwL2F1dGgvc2lnbmluLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvYmVuYmEvT25lRHJpdmUvRGV2L0RvemVyYW5kU2NobWl0dC9uZXctY291cnNlL2Fzc2V0cy9hcHAvYXV0aC9zaWduaW4uY29tcG9uZW50LnRzLlNpZ25pbkNvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIjxkaXYgY2xhc3M9XCJjb2wtbWQtOCBjb2wtbWQtb2Zmc2V0LTJcIj5cclxuICAgIDxmb3JtIFtmb3JtR3JvdXBdPVwibXlGb3JtXCIgKG5nU3VibWl0KT1cIm9uU3VibWl0KClcIiBuZ05hdGl2ZVZhbGlkYXRlPlxyXG4gICAgICAgIDxkaXYgY2xhc3M9XCJmb3JtLWdyb3VwXCI+XHJcbiAgICAgICAgICAgIDxsYWJlbCBmb3I9XCJlbWFpbFwiPkVtYWlsPC9sYWJlbD5cclxuICAgICAgICAgICAgPGlucHV0IFxyXG4gICAgICAgICAgICAgICAgICAgIHR5cGU9XCJlbWFpbFwiIFxyXG4gICAgICAgICAgICAgICAgICAgIGlkPVwiZW1haWxcIiBcclxuICAgICAgICAgICAgICAgICAgICBjbGFzcz1cImZvcm0tY29udHJvbFwiXHJcbiAgICAgICAgICAgICAgICAgICAgZm9ybUNvbnRyb2xOYW1lPVwiZW1haWxcIj5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgICA8ZGl2IGNsYXNzPVwiZm9ybS1ncm91cFwiPlxyXG4gICAgICAgICAgICA8bGFiZWwgZm9yPVwicGFzc3dvcmRcIj5QYXNzd29yZDwvbGFiZWw+XHJcbiAgICAgICAgICAgIDxpbnB1dCBcclxuICAgICAgICAgICAgICAgICAgICB0eXBlPVwicGFzc3dvcmRcIiBcclxuICAgICAgICAgICAgICAgICAgICBpZD1cInBhc3N3b3JkXCIgXHJcbiAgICAgICAgICAgICAgICAgICAgY2xhc3M9XCJmb3JtLWNvbnRyb2xcIlxyXG4gICAgICAgICAgICAgICAgICAgIGZvcm1Db250cm9sTmFtZT1cInBhc3N3b3JkXCI+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPGJ1dHRvbiBjbGFzcz1cImJ0biBidG4tcHJpbWFyeVwiIFxyXG4gICAgICAgICAgICAgICAgdHlwZT1cInN1Ym1pdFwiXHJcbiAgICAgICAgICAgICAgICBbZGlzYWJsZWRdPVwiIW15Rm9ybS52YWxpZFwiPlN1Ym1pdDwvYnV0dG9uPlxyXG4gICAgPC9mb3JtPlxyXG48L2Rpdj4iLCI8YXBwLXNpZ25pbj48L2FwcC1zaWduaW4+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztNQ0FBO1FBQUE7UUFBQTtNQUFBO0lBQUE7SUFBc0M7TUFDbEM7UUFBQTtRQUFBO01BQUE7SUFBQTtNQUFBO1FBQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtRQUFBO01BQUE7O0lBQUE7S0FBQTtNQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtNQUFBOztJQUFBO0tBQUE7TUFBQTtNQUFBO01BQUE7UUFBQTtRQUFBO01BQUE7TUFBQTtRQUFBO1FBQUE7TUFBQTtNQUEyQjtRQUFBO1FBQUE7TUFBQTtNQUEzQjtJQUFBO2dCQUFBO01BQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO01BQUE7O0lBQUE7T0FBQTtRQUFBO1FBQUE7TUFBQTtJQUFBO2dCQUFBO2dCQUFBO0lBQW9FO01BQ2hFO1FBQUE7UUFBQTtNQUFBO0lBQUE7SUFBd0I7TUFDcEI7UUFBQTtRQUFBO01BQUE7SUFBQTtJQUFtQjtJQUFhO0lBQ2hDO01BQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO01BQUE7O0lBQUE7S0FBQTtNQUFBO1FBQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtRQUFBO01BQUE7O0lBQUE7S0FBQTtNQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtNQUFBOztJQUFBO0tBQUE7TUFBQTtNQUFBO1FBQUE7UUFBQTtNQUFBO01BQUE7UUFBQTtRQUFBO01BQUE7TUFBQTtRQUFBO1FBQUE7TUFBQTtNQUFBO1FBQUE7UUFBQTtNQUFBO01BQUE7SUFBQTtnQkFBQTs7O01BQUE7UUFBQTs7TUFBQTs7SUFBQTtLQUFBO2dCQUFBO01BQUE7SUFBQTtnQkFBQTtNQUFBO1FBQUE7O01BQUE7O01BQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTs7TUFBQTs7SUFBQTtPQUFBO1FBQUE7UUFBQTtNQUFBO0lBQUE7Z0JBQUE7Z0JBQUE7SUFJZ0M7SUFDOUI7TUFDTjtRQUFBO1FBQUE7TUFBQTtJQUFBO0lBQXdCO01BQ3BCO1FBQUE7UUFBQTtNQUFBO0lBQUE7SUFBc0I7SUFBZ0I7SUFDdEM7TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7SUFBQTtLQUFBO01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7SUFBQTtLQUFBO01BQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO01BQUE7O0lBQUE7S0FBQTtNQUFBO01BQUE7UUFBQTtRQUFBO01BQUE7TUFBQTtRQUFBO1FBQUE7TUFBQTtNQUFBO1FBQUE7UUFBQTtNQUFBO01BQUE7UUFBQTtRQUFBO01BQUE7TUFBQTtJQUFBO2dCQUFBOzs7TUFBQTtRQUFBOztNQUFBOztJQUFBO0tBQUE7Z0JBQUE7TUFBQTtJQUFBO2dCQUFBO01BQUE7UUFBQTs7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBOztNQUFBOztJQUFBO09BQUE7UUFBQTtRQUFBO01BQUE7SUFBQTtnQkFBQTtnQkFBQTtJQUltQztJQUNqQztJQUNOO01BQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO01BQUE7O0lBQUE7T0FBQTtRQUFBO1FBQUE7UUFBQTtNQUFBO0lBQUE7SUFFbUM7SUFBZTtJQUMvQzs7OztJQXBCRDtJQUFOLFNBQU0sU0FBTjtJQU9nQjtJQUpSLFVBSVEsVUFKUjtJQVlRO0lBSlIsVUFJUSxVQUpSOzs7SUFYUjtJQUFBO0lBQUE7SUFBQTtJQUFBO0lBQUE7SUFBQTtJQUFBLFNBQUEscUVBQUE7SUFHUTtJQUFBO0lBQUE7SUFBQTtJQUFBO0lBQUE7SUFBQTtJQUFBLFVBQUEsMEVBQUE7SUFRQTtJQUFBO0lBQUE7SUFBQTtJQUFBO0lBQUE7SUFBQTtJQUFBLFVBQUEsNEVBQUE7SUFRSTtJQUZSLFVBRVEsVUFGUjs7Ozs7SUNsQlI7Z0JBQUE7OztJQUFBO0tBQUE7OztJQUFBOzs7In0=
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvYmVuYmEvT25lRHJpdmUvRGV2L0RvemVyYW5kU2NobWl0dC9uZXctY291cnNlL2Fzc2V0cy9hcHAvYXV0aC9zaWduaW4uY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL0M6L1VzZXJzL2JlbmJhL09uZURyaXZlL0Rldi9Eb3plcmFuZFNjaG1pdHQvbmV3LWNvdXJzZS9hc3NldHMvYXBwL2F1dGgvc2lnbmluLmNvbXBvbmVudC50cyIsIm5nOi8vL0M6L1VzZXJzL2JlbmJhL09uZURyaXZlL0Rldi9Eb3plcmFuZFNjaG1pdHQvbmV3LWNvdXJzZS9hc3NldHMvYXBwL2F1dGgvc2lnbmluLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvYmVuYmEvT25lRHJpdmUvRGV2L0RvemVyYW5kU2NobWl0dC9uZXctY291cnNlL2Fzc2V0cy9hcHAvYXV0aC9zaWduaW4uY29tcG9uZW50LnRzLlNpZ25pbkNvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIjxkaXYgY2xhc3M9XCJjb2wtbWQtOCBjb2wtbWQtb2Zmc2V0LTJcIj5cbiAgICA8Zm9ybSBbZm9ybUdyb3VwXT1cIm15Rm9ybVwiIChuZ1N1Ym1pdCk9XCJvblN1Ym1pdCgpXCI+XG4gICAgICAgIDxkaXYgY2xhc3M9XCJmb3JtLWdyb3VwXCI+XG4gICAgICAgICAgICA8bGFiZWwgZm9yPVwiZW1haWxcIj5NYWlsPC9sYWJlbD5cbiAgICAgICAgICAgIDxpbnB1dFxuICAgICAgICAgICAgICAgICAgICB0eXBlPVwiZW1haWxcIlxuICAgICAgICAgICAgICAgICAgICBpZD1cImVtYWlsXCJcbiAgICAgICAgICAgICAgICAgICAgY2xhc3M9XCJmb3JtLWNvbnRyb2xcIlxuICAgICAgICAgICAgICAgICAgICBmb3JtQ29udHJvbE5hbWU9XCJlbWFpbFwiPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGRpdiBjbGFzcz1cImZvcm0tZ3JvdXBcIj5cbiAgICAgICAgICAgIDxsYWJlbCBmb3I9XCJwYXNzd29yZFwiPlBhc3N3b3JkPC9sYWJlbD5cbiAgICAgICAgICAgIDxpbnB1dFxuICAgICAgICAgICAgICAgICAgICB0eXBlPVwicGFzc3dvcmRcIlxuICAgICAgICAgICAgICAgICAgICBpZD1cInBhc3N3b3JkXCJcbiAgICAgICAgICAgICAgICAgICAgY2xhc3M9XCJmb3JtLWNvbnRyb2xcIlxuICAgICAgICAgICAgICAgICAgICBmb3JtQ29udHJvbE5hbWU9XCJwYXNzd29yZFwiPlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPGJ1dHRvblxuICAgICAgICAgICAgICAgIGNsYXNzPVwiYnRuIGJ0bi1wcmltYXJ5XCJcbiAgICAgICAgICAgICAgICB0eXBlPVwic3VibWl0XCJcbiAgICAgICAgICAgICAgICBbZGlzYWJsZWRdPVwiIW15Rm9ybS52YWxpZFwiPlN1Ym1pdDwvYnV0dG9uPlxuICAgIDwvZm9ybT5cbjwvZGl2PiIsIjxhcHAtc2lnbmluPjwvYXBwLXNpZ25pbj4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O01DQUE7UUFBQTtRQUFBO01BQUE7SUFBQTtJQUFzQztNQUNsQztRQUFBO1FBQUE7TUFBQTtJQUFBO01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7SUFBQTtLQUFBO01BQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO01BQUE7O0lBQUE7S0FBQTtNQUFBO01BQUE7TUFBQTtRQUFBO1FBQUE7TUFBQTtNQUFBO1FBQUE7UUFBQTtNQUFBO01BQTJCO1FBQUE7UUFBQTtNQUFBO01BQTNCO0lBQUE7Z0JBQUE7Z0JBQUE7TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7SUFBQTtPQUFBO1FBQUE7UUFBQTtNQUFBO0lBQUE7Z0JBQUE7Z0JBQUE7SUFBbUQ7TUFDL0M7UUFBQTtRQUFBO01BQUE7SUFBQTtJQUF3QjtNQUNwQjtRQUFBO1FBQUE7TUFBQTtJQUFBO0lBQW1CO0lBQVk7SUFDL0I7TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7SUFBQTtLQUFBO01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7SUFBQTtLQUFBO01BQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO01BQUE7O0lBQUE7S0FBQTtNQUFBO01BQUE7UUFBQTtRQUFBO01BQUE7TUFBQTtRQUFBO1FBQUE7TUFBQTtNQUFBO1FBQUE7UUFBQTtNQUFBO01BQUE7UUFBQTtRQUFBO01BQUE7TUFBQTtJQUFBO2dCQUFBOzs7TUFBQTtRQUFBOztNQUFBOztJQUFBO0tBQUE7Z0JBQUE7TUFBQTtJQUFBO2dCQUFBO01BQUE7UUFBQTs7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBOztNQUFBOztJQUFBO09BQUE7UUFBQTtRQUFBO01BQUE7SUFBQTtnQkFBQTtnQkFBQTtJQUlnQztJQUM5QjtNQUNOO1FBQUE7UUFBQTtNQUFBO0lBQUE7SUFBd0I7TUFDcEI7UUFBQTtRQUFBO01BQUE7SUFBQTtJQUFzQjtJQUFnQjtJQUN0QztNQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtNQUFBOztJQUFBO0tBQUE7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtRQUFBO01BQUE7O01BQUE7UUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7UUFBQTtNQUFBOztJQUFBO0tBQUE7TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7SUFBQTtLQUFBO01BQUE7TUFBQTtRQUFBO1FBQUE7TUFBQTtNQUFBO1FBQUE7UUFBQTtNQUFBO01BQUE7UUFBQTtRQUFBO01BQUE7TUFBQTtRQUFBO1FBQUE7TUFBQTtNQUFBO0lBQUE7Z0JBQUE7OztNQUFBO1FBQUE7O01BQUE7O0lBQUE7S0FBQTtnQkFBQTtNQUFBO0lBQUE7Z0JBQUE7TUFBQTtRQUFBOztNQUFBOztNQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7UUFBQTtNQUFBOztNQUFBO1FBQUE7O01BQUE7O0lBQUE7T0FBQTtRQUFBO1FBQUE7TUFBQTtJQUFBO2dCQUFBO2dCQUFBO0lBSW1DO0lBQ2pDO0lBQ047TUFBQTtRQUFBO1FBQUE7TUFBQTs7TUFBQTtRQUFBO1FBQUE7TUFBQTs7SUFBQTtPQUFBO1FBQUE7UUFBQTtRQUFBO01BQUE7SUFBQTtJQUdtQztJQUFlO0lBQy9DOzs7O0lBckJEO0lBQU4sU0FBTSxTQUFOO0lBT2dCO0lBSlIsVUFJUSxVQUpSO0lBWVE7SUFKUixVQUlRLFVBSlI7OztJQVhSO0lBQUE7SUFBQTtJQUFBO0lBQUE7SUFBQTtJQUFBO0lBQUEsU0FBQSxxRUFBQTtJQUdRO0lBQUE7SUFBQTtJQUFBO0lBQUE7SUFBQTtJQUFBO0lBQUEsVUFBQSwwRUFBQTtJQVFBO0lBQUE7SUFBQTtJQUFBO0lBQUE7SUFBQTtJQUFBO0lBQUEsVUFBQSw0RUFBQTtJQVNJO0lBSFIsVUFHUSxVQUhSOzs7OztJQ2xCUjtnQkFBQTs7O0lBQUE7S0FBQTs7O0lBQUE7OzsifQ==
