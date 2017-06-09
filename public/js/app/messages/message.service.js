@@ -27,7 +27,7 @@ var MessageService = (function () {
         var token = localStorage.getItem('token')
             ? '?token=' + localStorage.getItem('token')
             : '';
-        return this.http.post('https://sb-test-deployment.herokuapp.com/message' + token, body, { headers: headers })
+        return this.http.post('http://localhost:3000/message' + token, body, { headers: headers })
             .map(function (response) {
             var result = response.json();
             var message = new Message(result.obj.content, result.obj.user.firstName, result.obj._id, result.obj.user._id);
@@ -41,7 +41,7 @@ var MessageService = (function () {
     };
     MessageService.prototype.getMessages = function () {
         var _this = this;
-        return this.http.get('https://sb-test-deployment.herokuapp.com/message')
+        return this.http.get('http://localhost:3000/message')
             .map(function (response) {
             var messages = response.json().obj;
             var transformedMessages = [];
@@ -67,7 +67,7 @@ var MessageService = (function () {
         var token = localStorage.getItem('token')
             ? '?token=' + localStorage.getItem('token')
             : '';
-        return this.http.patch('https://sb-test-deployment.herokuapp.com/message/' + message.messageId + token, body, { headers: headers })
+        return this.http.patch('http://localhost:3000/message/' + message.messageId + token, body, { headers: headers })
             .map(function (response) { return response.json(); })
             .catch(function (error) {
             _this.errorService.handleError(error.json());
@@ -80,7 +80,7 @@ var MessageService = (function () {
         var token = localStorage.getItem('token')
             ? '?token=' + localStorage.getItem('token')
             : '';
-        return this.http.delete('https://sb-test-deployment.herokuapp.com/message/' + message.messageId + token)
+        return this.http.delete('http://localhost:3000/message/' + message.messageId + token)
             .map(function (response) { return response.json(); })
             .catch(function (error) {
             _this.errorService.handleError(error.json());
