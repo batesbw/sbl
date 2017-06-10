@@ -34,8 +34,8 @@ body {
 
 body{
   width: 100%;
-  background: -webkit-linear-gradient(left, #22d686, #78bf3a, #22d686, #78bf3a);
-  background: linear-gradient(to right, #22d686, #78bf3a, #22d686, #78bf3a);
+  background: -webkit-linear-gradient(left, #78bf3a, #ccc, #78bf3a, #ccc);
+  background: linear-gradient(to right, #78bf3a, #ccc, #78bf3a, #ccc);
   background-size: 600% 100%;
   -webkit-animation: HeroBG 20s ease infinite;
           animation: HeroBG 20s ease infinite;
@@ -168,7 +168,7 @@ label {
 }
 .panel-login>.panel-heading .register {
   padding: 20px 30px;
-  background: #2d3b55;
+  background: #78bf3a;
   border-bottom-right-radius: 5px;
   color: #fff;
 }
@@ -219,7 +219,7 @@ label {
 .btn-login:hover,
 .btn-login:focus {
   color: #fff;
-  background-color: #2D3B55;
+  background-color: #78bf3a;
 }
 .forgot-password {
   text-decoration: underline;
@@ -268,11 +268,11 @@ label {
 }
 
 .turqbg {
-    background-color: #46D8D2;
+    background-color: #78bf3a;
 }
 
 .turq {
-    color: #46D8D2;
+    color: #78bf3a;
 }
 
 .white {
@@ -320,14 +320,15 @@ div.user-menu-container .btn-group-vertical {
 
 div.user-menu-container .btn-group-vertical>a {
     padding: 20px 25px;
-    background-color: #46D8D2;
+    background-color: #78bf3a;
     color: white;
     border-color: #fff;
 }
 
 div.btn-group-vertical>a:hover {
-    color: white;
-    border-color: white;
+    color: #78bf3a;
+    border-color: #fff;
+    background: #fff;
 }
 
 div.btn-group-vertical>a.active {
