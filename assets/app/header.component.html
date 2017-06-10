@@ -37,7 +37,7 @@
                     <a [routerLink]="['/user']" class="btn btn-default">
                     <i class="fa fa-laptop fa-3x"></i>
                     </a>
-                    <a href="auth/logout" class="btn btn-default">
+                    <a (click)="onLogout()" class="btn btn-default">
                     <i class="fa fa-power-off fa-3x"></i>
                     </a>
                 </div>
