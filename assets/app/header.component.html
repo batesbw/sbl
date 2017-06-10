@@ -1,0 +1,49 @@
+<header class="row" *ngIf="isLoggedIn()">
+    <div class="row user-menu-container square">
+        <div class="col-md-7 user-details">
+            <div class="row coralbg white">
+                <div class="col-md-12 no-pad">
+                    <div class="user-pad">
+                        <h3>Welcome back, [Name]</h3>
+                        <h4 class="white"><i class="fa fa-check-circle-o"></i> [Suburb], [State]</h4>
+                        <button type="button" class="btn btn-labeled btn-info" href="#">
+                            <span class="btn-label"><i class="fa fa-pencil"></i></span>Update</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row overview">
+                <div class="col-md-4 user-pad text-center">
+                    <h3>Claims</h3>
+                    <h4>2,784</h4>
+                </div>
+                <div class="col-md-4 user-pad text-center">
+                    <h3>Claims</h3>
+                    <h4>456</h4>
+                </div>
+                <div class="col-md-4 user-pad text-center">
+                    <h3>Claims</h3>
+                    <h4>4,901</h4>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-1 user-menu-btns">
+                <div class="btn-group-vertical square">
+                    <a [routerLink]="['/user']" class="btn btn-default">
+                    <i class="fa fa-home fa-3x"></i>
+                    </a>
+                    <a [routerLink]="['/user']" class="btn btn-default">
+                    <i class="fa fa-money fa-3x"></i>
+                    </a>
+                    <a [routerLink]="['/user']" class="btn btn-default">
+                    <i class="fa fa-laptop fa-3x"></i>
+                    </a>
+                    <a href="auth/logout" class="btn btn-default">
+                    <i class="fa fa-power-off fa-3x"></i>
+                    </a>
+                </div>
+            </div>
+                    <div class="user-image">
+                        <img src="http://www.investorsedgeuniversity.com/wp-content/uploads/Home-Builder-9.jpg" class="img-responsive thumbnail">
+                    </div>
+        </div>
+        </header>
